@@ -80,11 +80,11 @@ export default function About() {
               : "-translate-y-10 opacity-0"
           }`}
         >
-          <h1 className="text-6xl md:text-8xl font-bold mb-8 relative">
+          <h1 className="text-2xl md:text-4xl font-bold mb-8 relative">
             <span className="bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent animate-shimmer">
               ABOUT
             </span>
-            <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-[#1810B0] to-purple-500 rounded-full animate-expand"></div>
+            <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-[#1810B0] rounded-full animate-expand"></div>
           </h1>
         </div>
 
