@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import apple from "@/app/assets/apple.svg"
-import google from "@/app/assets/google.svg"
+import music from "@/app/assets/music.svg"
 import youtube from "@/app/assets/youtube.svg"
 import spotify from "@/app/assets/spotify.svg"
 
@@ -26,9 +26,9 @@ export default function Platforms() {
       bgColor: "bg-white hover:bg-gray-50"
     },
     { 
-      src: google, 
-      alt: "Google Podcasts", 
-      name: "Google Podcasts",
+      src: music, 
+      alt: "Amazon Music", 
+      name: "Amazon Music",
       bgColor: "bg-white hover:bg-gray-50"
     }
   ];
@@ -39,11 +39,9 @@ export default function Platforms() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Listen On Your Favorite Platform
+            Available On 
           </h2>
-          <p className="text-blue-200 text-lg max-w-2xl mx-auto">
-            Available on all major podcast platforms. Choose where you'd like to listen.
-          </p>
+
         </div>
 
         {/* Platforms Grid */}
