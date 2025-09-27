@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import banner from "@/app/assets/doac-banner3.jpg";
+import banner from "@/app/assets/banner.jpg";
 import Image from "next/image";
 import { ArrowRight, Play, Users, Target, Zap } from "lucide-react";
 
