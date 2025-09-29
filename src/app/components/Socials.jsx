@@ -5,11 +5,11 @@ import insta from "@/app/assets/icon-ig.svg";
 import linkedin from "@/app/assets/icon-li.svg";
 import facebook from "@/app/assets/icon-fb.svg";
 import snap from "@/app/assets/snapchat.svg";
-import x_black from "@/app/assets/x.svg";
-import insta_black from "@/app/assets/ig.svg";
-import linkedin_black from "@/app/assets/li.svg";
-import facebook_black from "@/app/assets/fb.svg";
-import snap_black from "@/app/assets/snapchat-black.svg";
+import x_black from "@/app/assets/icon-x.svg";
+import insta_black from "@/app/assets/icon-ig.svg";
+import linkedin_black from "@/app/assets/icon-li.svg";
+import facebook_black from "@/app/assets/icon-fb.svg";
+import snap_black from "@/app/assets/snapchat.svg";
 
 export default function Socials() {
   const [hoveredIcon, setHoveredIcon] = useState(null);

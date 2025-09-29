@@ -97,7 +97,7 @@ export default function Reach() {
               <div className="relative group inline-block">
                 <button
                   onClick={handleEmailClick}
-                  className="relative inline-flex items-center space-x-4 bg-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-500 transform hover:scale-105 active:scale-95 overflow-hidden border-2 border-[#1810B0]"
+                  className="relative inline-flex items-center space-x-4 bg-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-500 transform hover:scale-105 active:scale-95 overflow-hidden border-2 border-[#1810B0] hover:border-white"
                 >
                   {/* Animated gradient background on hover */}
                   <div className="absolute inset-0 bg-gradient-to-r from-[#1810B0]/10 via-[#1810B0]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full"></div>
