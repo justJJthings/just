@@ -29,7 +29,7 @@ export default function Socials() {
       onMouseLeave={() => setHoveredIcon(null)}
     >
       {/* Background fill animation */}
-      <div className="absolute inset-0 bg-[#1810B0] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
+      <div className="absolute -inset-1 bg-[#1810B0] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
       
       {/* Icon */}
       <div className="relative z-10 transition-transform duration-300 group-hover:scale-110">
