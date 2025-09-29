@@ -4,10 +4,12 @@ import x from "@/app/assets/icon-x.svg";
 import insta from "@/app/assets/icon-ig.svg";
 import linkedin from "@/app/assets/icon-li.svg";
 import facebook from "@/app/assets/icon-fb.svg";
+import snap from "@/app/assets/snapchat.svg";
 import x_black from "@/app/assets/x.svg";
 import insta_black from "@/app/assets/ig.svg";
 import linkedin_black from "@/app/assets/li.svg";
 import facebook_black from "@/app/assets/fb.svg";
+import snap_black from "@/app/assets/snapchat-black.svg";
 
 export default function Socials() {
   const [hoveredIcon, setHoveredIcon] = useState(null);
@@ -16,7 +18,8 @@ export default function Socials() {
     { id: 'facebook', normal: facebook, black: facebook_black, alt: 'Facebook' },
     { id: 'linkedin', normal: linkedin, black: linkedin_black, alt: 'LinkedIn' },
     { id: 'instagram', normal: insta, black: insta_black, alt: 'Instagram' },
-    { id: 'x', normal: x, black: x_black, alt: 'X (Twitter)' }
+    { id: 'x', normal: x, black: x_black, alt: 'X (Twitter)' },
+    { id: 'snapchat', normal: snap, black: snap_black, alt: 'Snapchat' }
   ];
 
   const SocialIcon = ({ icon, index }) => (
@@ -44,7 +47,7 @@ export default function Socials() {
   return (
     <footer className="bg-black">
       {/* Desktop layout - 4 columns */}
-      <div className="hidden md:grid md:grid-cols-4">
+      <div className="hidden md:grid md:grid-cols-5">
         {socialIcons.map((icon, index) => (
           <SocialIcon key={`desktop-${icon.id}`} icon={icon} index={`desktop-${index}`} />
         ))}
@@ -66,6 +69,12 @@ export default function Socials() {
             <SocialIcon icon={socialIcons[2]} index="mobile-2" />
           </div>
           <SocialIcon icon={socialIcons[3]} index="mobile-3" />
+        </div>
+        <div className="">
+          <div className="">
+            <SocialIcon icon={socialIcons[4]} index="mobile-4" />
+          </div>
+         
         </div>
       </div>
 
