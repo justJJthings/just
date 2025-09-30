@@ -108,7 +108,7 @@ function MobileNavLink({ href, children, onClick }) {
     <a
       href={href}
       onClick={onClick}
-      className="text-[#1810B0] hover:text-gray-300 flex justify-center items-center text-5xl font-bold transition-all duration-300 py-3  hover:pl-4"
+      className="text-[#1810B0] hover:text-gray-300 flex justify-center items-center text-2xl md:text-5xl font-bold transition-all duration-300 py-3  hover:pl-4"
     >
       {children}
     </a>
