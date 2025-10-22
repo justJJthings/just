@@ -139,8 +139,8 @@ export default function About() {
             style={{ transitionDelay: "0.2s" }}
           >
             <p className="text-lg md:text-xl space-y-8 leading-relaxed relative group">
-              Artificial intelligence is growing at a record pace: the global
-              AI market is projected to{" "}
+              Artificial intelligence is growing at a record pace; the global
+              AI market is projected to
               &nbsp;<span className="font-semibold">triple in the next few years,</span> crossing
               &nbsp;<span className="font-semibold">US$17 billion</span> in emerging economies alone. Whether
               it’s AI or crypto, tech opportunities today have never been
@@ -154,7 +154,7 @@ export default function About() {
             </p>
 
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
-              &nbsp;<span className="font-semibold">Just JJ Things,</span> is a growth-first platform aiming to
+            <span className="font-semibold">Just JJ Things,</span> is a growth-first platform aiming to
               be the knowledge hub for anyone who wants to become tech-smart.
               From using technology for business to scale your business to
               upskilling at work, every challenge and perspective is explored
@@ -184,7 +184,7 @@ export default function About() {
 
             </p>
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
-             <span className="font-semibold">Watch. Read. Learn. Grow.</span> Join me, <span className="font-semibold">Jivjot Singh JJ,</span> on this journey of tech exploration today
+             <span className="font-semibold">Watch. Read. Learn. Grow.</span> Join me, <span className="font-semibold">Jivjot Singh JJ,</span> on this journey of tech exploration today.
             </p>
           </div>
         </div>
