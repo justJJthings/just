@@ -139,10 +139,10 @@ export default function About() {
             style={{ transitionDelay: "0.2s" }}
           >
             <p className="text-lg md:text-xl space-y-8 leading-relaxed relative group">
-              Artificial intelligence is growing at a record pace — the global
+              Artificial intelligence is growing at a record pace: the global
               AI market is projected to{" "}
-              <span className="font-semibold">triple in the next few years,</span> crossing
-              <span className="font-semibold">US$17 billion</span> in emerging economies alone. Whether
+              &nbsp;<span className="font-semibold">triple in the next few years,</span> crossing
+              &nbsp;<span className="font-semibold">US$17 billion</span> in emerging economies alone. Whether
               it’s AI or crypto, tech opportunities today have never been
               bigger. But one question most people still have is: how to benefit
               from it?
@@ -150,11 +150,11 @@ export default function About() {
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
               Most people with big dreams just want to know how to leverage new
               technologies like AI and crypto to grow. And that is exactly what
-              I,<span className="font-semibold">Jivjot Singh JJ,</span> am here to help you with.
+              I,&nbsp;<span className="font-semibold">Jivjot Singh JJ,</span> am here to help you with.
             </p>
 
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
-              <span className="font-semibold">Just JJ Things,</span> is a growth-first platform aiming to
+              &nbsp;<span className="font-semibold">Just JJ Things,</span> is a growth-first platform aiming to
               be the knowledge hub for anyone who wants to become tech-smart.
               From using technology for business to scale your business to
               upskilling at work, every challenge and perspective is explored
@@ -168,7 +168,7 @@ export default function About() {
               real, and how you can actually use it. I try my best to distill
               new developments in technology for the masses, breaking everything
               into simple, step-by-step actions that turn tech into your growth
-              partner. <span className="font-semibold">Just JJ Things</span> is a platform built for
+              partner.&nbsp;<span className="font-semibold">Just JJ Things</span> is a platform built for
               ambitious people.
             </p>
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
@@ -180,7 +180,7 @@ export default function About() {
               my mission.
             </p>
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
-             If you’re ready to level up and love exploring new tech, subscribe to <span className="font-semibold">Just JJ Things,</span> your space for AI, crypto, and everything tech.
+             If you’re ready to level up and love exploring new tech, subscribe to&nbsp;<span className="font-semibold">Just JJ Things,</span> your space for AI, crypto, and everything tech.
 
             </p>
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
