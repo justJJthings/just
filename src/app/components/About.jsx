@@ -140,9 +140,9 @@ export default function About() {
           >
             <p className="text-lg md:text-xl space-y-8 leading-relaxed relative group">
               Artificial intelligence is growing at a record pace; the global
-              AI market is projected to
-              &nbsp;<span className="font-semibold">triple in the next few years,</span> crossing
-              &nbsp;<span className="font-semibold">US$17 billion</span> in emerging economies alone. Whether
+              AI market is projected 
+              to&nbsp;<span className="font-semibold">triple in the next few years,</span> 
+              &nbsp;crossing&nbsp;<span className="font-semibold">US$17 billion</span> in emerging economies alone. Whether
               it’s AI or crypto, tech opportunities today have never been
               bigger. But one question most people still have is: how to benefit
               from it?
