@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Menu, X, Play } from "lucide-react";
 import logo from "@/app/assets/jj-things-logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,7 +81,9 @@ export default function Navbar() {
                 href="#episodes"
                 onClick={() => setIsMenuOpen(false)}
               >
+                <Link href="https://www.youtube.com/@JustJJThings">
                 PODCASTS
+                </Link>
               </MobileNavLink>
               <MobileNavLink href="#about" onClick={() => setIsMenuOpen(false)}>
                 ABOUT
