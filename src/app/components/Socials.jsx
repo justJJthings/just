@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import x from "@/app/assets/icon-x.svg";
 import insta from "@/app/assets/icon-ig.svg";
 import linkedin from "@/app/assets/icon-li.svg";
@@ -15,16 +16,19 @@ export default function Socials() {
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
   const socialIcons = [
-    { id: 'facebook', normal: facebook, black: facebook_black, alt: 'Facebook' },
-    { id: 'linkedin', normal: linkedin, black: linkedin_black, alt: 'LinkedIn' },
-    { id: 'instagram', normal: insta, black: insta_black, alt: 'Instagram' },
-    { id: 'x', normal: x, black: x_black, alt: 'X (Twitter)' },
-    { id: 'snapchat', normal: snap, black: snap_black, alt: 'Snapchat' }
+    { id: 'facebook', normal: facebook, black: facebook_black, alt: 'Facebook', link:"https://www.facebook.com/Jivjot.sngh" },
+    { id: 'linkedin', normal: linkedin, black: linkedin_black, alt: 'LinkedIn', link:"https://www.linkedin.com/in/jivjot-singh-9180a2344/" },
+    { id: 'instagram', normal: insta, black: insta_black, alt: 'Instagram', link:"https://www.instagram.com/jjthingsofficial?igsh=eHhyaTJ3azQ1MGly" },
+    { id: 'x', normal: x, black: x_black, alt: 'X (Twitter)', link:"https://x.com/jivjotsinghjj?lang=en" },
+    { id: 'snapchat', normal: snap, black: snap_black, alt: 'Snapchat', link:"https://www.snapchat.com/add/itsjjthings" }
   ];
 
   const SocialIcon = ({ icon, index }) => (
-    <div 
-      className="relative flex justify-center items-center h-24 cursor-pointer overflow-hidden group "
+    <Link
+      href={icon.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative flex justify-center items-center h-24 cursor-pointer overflow-hidden group"
       onMouseEnter={() => setHoveredIcon(`${icon.id}-${index}`)}
       onMouseLeave={() => setHoveredIcon(null)}
     >
@@ -41,7 +45,7 @@ export default function Socials() {
           className="w-10 h-10" 
         />
       </div>
-    </div>
+    </Link>
   );
 
   return (
