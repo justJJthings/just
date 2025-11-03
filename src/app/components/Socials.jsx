@@ -16,10 +16,10 @@ export default function Socials() {
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
   const socialIcons = [
-    { id: 'facebook', normal: facebook, black: facebook_black, alt: 'Facebook', link:"https://www.facebook.com/Jivjot.sngh" },
+    { id: 'facebook', normal: facebook, black: facebook_black, alt: 'Facebook', link:"https://www.facebook.com/share/1ADJJ9VUfM/?mibextid=wwXIfr" },
     { id: 'linkedin', normal: linkedin, black: linkedin_black, alt: 'LinkedIn', link:"https://www.linkedin.com/in/jivjot-singh-9180a2344/" },
     { id: 'instagram', normal: insta, black: insta_black, alt: 'Instagram', link:"https://www.instagram.com/jjthingsofficial?igsh=eHhyaTJ3azQ1MGly" },
-    { id: 'x', normal: x, black: x_black, alt: 'X (Twitter)', link:"https://x.com/jivjotsinghjj?lang=en" },
+    { id: 'x', normal: x, black: x_black, alt: 'X (Twitter)', link:"https://x.com/itsjjthings?s=21" },
     { id: 'snapchat', normal: snap, black: snap_black, alt: 'Snapchat', link:"https://www.snapchat.com/add/itsjjthings" }
   ];
 
