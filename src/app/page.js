@@ -7,6 +7,8 @@ import Reach from "./components/Reach";
 export default function Home() {
   return (
     <>
+
+          <title>Just JJ Things</title>
       <Hero/>
       <About/>
       <Platforms/>
