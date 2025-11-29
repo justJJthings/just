@@ -33,31 +33,31 @@ export default function Hero() {
 
         {/* Logo Container */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full max-w-7xl mx-auto px-4">
-  {/* Logo with animation */}
-  <div
-    className={`transition-all duration-1000 ease-out ${
-      isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-75"
-    }`}
-  >
-    <div className="flex justify-center items-center mb-8">
-      <Image
-        src={logo}
-        alt="JJ Things Logo"
-        width={580}
-        height={580}
-        className="w-56 h-56 md:w-[580px] md:h-[580px] object-contain"
-        quality={100}
-        priority
-        unoptimized={false}
-        placeholder="empty"
-        style={{
-          maxWidth: '100%',
-          height: 'auto',
-        }}
-      />
-    </div>
-  </div>
-</div>
+          {/* Logo with animation */}
+          <div
+            className={`transition-all duration-1000 ease-out ${
+              isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-75"
+            }`}
+          >
+            <div className="flex justify-center items-center mb-8">
+              <Image
+                src={logo}
+                alt="JJ Things Logo"
+                width={580}
+                height={580}
+                className="w-56 h-56 md:w-[580px] md:h-[580px] object-contain"
+                quality={100}
+                priority
+                unoptimized={false}
+                placeholder="empty"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
+              />
+            </div>
+          </div>
+        </div>
 
         {/* Scroll Indicator */}
         <div

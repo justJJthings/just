@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import banner from "@/app/assets/banner.jpg";
+import bannerM from "@/app/assets/jjThings-about-mobile.png";
+import banner from "@/app/assets/jjThings-about-desktop.png";
 import Image from "next/image";
 import { ArrowRight, Play, Users, Target, Zap } from "lucide-react";
 
@@ -100,9 +101,17 @@ export default function About() {
           <div className="relative group">
             <div className="w-full h-[50vh] relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
+                src={bannerM}
+                alt="About Banner"
+                className={`w-full h-[50vh] object-cover transition-all duration-1000 group-hover:scale-110 md:hidden ${
+                  imageLoaded ? "blur-0" : "blur-sm"
+                }`}
+                onLoadingComplete={() => setImageLoaded(true)}
+              />
+              <Image
                 src={banner}
                 alt="About Banner"
-                className={`w-full h-[50vh] object-cover transition-all duration-1000 group-hover:scale-110 ${
+                className={`w-full h-[50vh] object-cover transition-all duration-1000 group-hover:scale-110 max-sm:hidden ${
                   imageLoaded ? "blur-0" : "blur-sm"
                 }`}
                 onLoadingComplete={() => setImageLoaded(true)}
@@ -139,26 +148,52 @@ export default function About() {
             style={{ transitionDelay: "0.2s" }}
           >
             <p className="text-lg md:text-xl space-y-8 leading-relaxed relative group">
-              Opportunities in India have never been greater, but most people
-              are trapped in brainrot. So, if you're someone with high ambition
-              , big goals, and just need the right direction to start. That's
-              where Just JJ Things comes in.
-              <br />
-              Hi, I'm your host JJ (Jivjot Singh) . On this channel, I bring in
-              experts from different industries and break things down into a
-              step-by-step actionable plan so you can build your dream business
-              from scratch.
+              Artificial intelligence is growing at a record pace; the global
+              AI market is projected 
+              to&nbsp;<span className="font-semibold">triple in the next few years,</span> 
+              &nbsp;crossing&nbsp;<span className="font-semibold">US$17 billion</span> in emerging economies alone. Whether
+              it’s AI or crypto, tech opportunities today have never been
+              bigger. But one question most people still have is: how to benefit
+              from it?
             </p>
             <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
-              Opportunities in India have never been greater, but most people
-              are trapped in brainrot. So, if you're someone with high ambition
-              , big goals, and just need the right direction to start. That's
-              where Just JJ Things comes in.
-              <br />
-              Hi, I'm your host JJ (Jivjot Singh) . On this channel, I bring in
-              experts from different industries and break things down into a
-              step-by-step actionable plan so you can build your dream business
-              from scratch.
+              Most people with big dreams just want to know how to leverage new
+              technologies like AI and crypto to grow. And that is exactly what
+              I,&nbsp;<span className="font-semibold">Jivjot Singh JJ,</span> am here to help you with.
+            </p>
+
+            <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
+            <span className="font-semibold">Just JJ Things,</span> is a growth-first platform aiming to
+              be the knowledge hub for anyone who wants to become tech-smart.
+              From using technology for business to scale your business to
+              upskilling at work, every challenge and perspective is explored
+              here. Short series, latest updates, interactions with seasoned
+              industry experts; I bring you new lessons, real insights, and
+              tested approaches to make technology your strongest tool.
+            </p>
+
+            <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
+              I bring you the latest on AI and crypto. What’s trending, what’s
+              real, and how you can actually use it. I try my best to distill
+              new developments in technology for the masses, breaking everything
+              into simple, step-by-step actions that turn tech into your growth
+              partner.&nbsp;<span className="font-semibold">Just JJ Things</span> is a platform built for
+              ambitious people.
+            </p>
+            <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
+              Dreaming is easy, but living the dream is what puts you in the top
+              1% club. And one thing that stands between the two is the ability
+              to leverage tech for growth. By becoming a part of this community,
+              you’ll see how the world’s most ambitious creators, professionals,
+              and builders think, work, and achieve. And bringing this to you is
+              my mission.
+            </p>
+            <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
+             If you’re ready to level up and love exploring new tech, subscribe to&nbsp;<span className="font-semibold">Just JJ Things,</span> your space for AI, crypto, and everything tech.
+
+            </p>
+            <p className="text-lg md:text-xl mt-4 leading-relaxed relative group">
+             <span className="font-semibold">Watch. Read. Learn. Grow.</span> Join me, <span className="font-semibold">Jivjot Singh JJ,</span> on this journey of tech exploration today.
             </p>
           </div>
         </div>
